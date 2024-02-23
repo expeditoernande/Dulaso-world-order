@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    margin-left: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-header {
+
+    display: inline;
+    justify-content: space-between;
+}
+
+.info-header ul li {
+    list-style: none;
+}
+
+.dulaso-image{
+    position: relative;
+    left: 700px;
+    margin-top: 50px;
+  
+}
+
+#title {
+    display: flex;
+    gap: 12px;
+    font-size: 2em;
+}
+
+form input {
+    margin-top: 20px;
+    font-family: Poppins;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.39) 0px 8px 24px;
+}
+
+
+
+#mail-box{
+    width: 50px;
+    height: 30px;
+}
+
+.dulaso-text {
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+
+ul  {
+    margin: 70px;
+    list-style: none;
+
+li {
+    color: white ;
+    font-size: 1.3em;
+    margin: 20px;
+    display: inline-flex;
+}
