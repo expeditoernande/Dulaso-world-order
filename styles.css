@@ -24,6 +24,10 @@ main{
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
 .info-header ul li {
     list-style: none;
 }
